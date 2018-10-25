@@ -1,3 +1,13 @@
+To run: 
+
+npm install
+
+npm install --save @datafire/weatherbit
+
+ng serve
+
+Type in city in search field eg. chicago, IL
+
 # Weather
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.2.
