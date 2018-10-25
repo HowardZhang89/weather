@@ -1,0 +1,18 @@
+<h3>
+  {{cityDetails.cityName}} 
+  {{cityDetails.stateCode}}
+  {{cityDetails.countryCode}}
+  {{cityDetails.longitude}}
+  {{cityDetails.latitude}}
+  {{cityDetails.timezone}}
+</h3>
+<p>
+  <button (click)="getWeather()"> Get Weather </button>
+</p>
+
+<app-weather-forecast
+  *ngFor="let forecast of weatherForecasts"
+  [myWeather] = "forecast">
+</app-weather-forecast>
+
+

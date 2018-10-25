@@ -1,0 +1,10 @@
+<div>
+  <h2>
+    Welcome to Weather App! 
+  </h2>
+  <h3>
+  Enter a city:
+  </h3>
+  <input [(ngModel)] = "searchText" />   
+</div>
+<app-weather-forecast-list [searchText]= "searchText"></app-weather-forecast-list>
